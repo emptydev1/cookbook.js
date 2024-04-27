@@ -1,12 +1,24 @@
 {
   "name": "cookbook.js",
   "version": "1.0.0",
-  "description": "",
-  "main": "lib/index.cjs",
+  "description": "📦 A library created with the main objective of being simple and intuitive, capable of returning a wide range of recipes thanks to the content of tudoreceitas.com.",
+  "main": "lib/cookbook.min.cjs",
+  "keywords": [ "library", "javascript", "recipes", "cook", "food" ],
+  "type": "commonjs",
+  "license": "Apache-2.0",
+  "author": "emptydev1",
+  "repository": "https://github.com/emptydev1/cookbook.js",
+  "bugs": { "url": "https://github.com/emptydev1/cookbook.js/issues" },
+  "homepage": "https://github.com/emptydev1/cookbook.js#README",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "undici": "^6.14.1"
+  },
+  "devDependencies": {}
 }
