@@ -24,7 +24,7 @@ npm install cookbook.js
 
 <p>Getting started with cookbook.js is quick and easy. Once installed, you can use it to retrieve recipes with minimal effort.</p>
 
-<h3 align="center">Example:</h3>
+<h3>Example:</h3>
 
 ```js
 const cookbook = require('cookbook.js');
@@ -33,7 +33,7 @@ const cookbook = require('cookbook.js');
 cookbook('chocolate cake', { format: true }).then(data => console.log(data));
 ```
 
-<h3 align="center">Response Format</h3>
+<h3>Response Format</h3>
 
 <p>When you request a recipe, you'll receive a detailed object containing various attributes. Here's an overview of the response format:</p>
 
