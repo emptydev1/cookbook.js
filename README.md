@@ -30,7 +30,7 @@ npm install cookbook.js
 const cookbook = require('cookbook.js');
 
 // Retrieve a recipe
-cookbook('chocolate cake').then(data => console.log(data));
+cookbook('chocolate cake', { format: true }).then(data => console.log(data));
 ```
 
 <h3 align="center">Response Format</h3>
